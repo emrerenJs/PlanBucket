@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/rUsernameET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="21dp"
+        android:ems="10"
+        android:hint="Kullanıcı adı"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/rPasswordET"
+        app:layout_constraintStart_toStartOf="@+id/rPasswordET" />
+
+    <EditText
+        android:id="@+id/rPasswordET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="187dp"
+        android:ems="10"
+        android:hint="Parola"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/registerBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:onClick="registerBTNOnClickHandler"
+        android:text="plana dahil ol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rEmailET" />
+
+    <EditText
+        android:id="@+id/rAgainPasswordET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Parola "
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/rPasswordET"
+        app:layout_constraintTop_toBottomOf="@+id/rPasswordET" />
+
+    <EditText
+        android:id="@+id/rEmailET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="example@gmaill.com"
+        android:inputType="textEmailAddress"
+        app:layout_constraintStart_toStartOf="@+id/rAgainPasswordET"
+        app:layout_constraintTop_toBottomOf="@+id/rAgainPasswordET" />
+
+    <Button
+        android:id="@+id/loginViewBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="loginViewBTNOnClickHandler"
+        android:text="İptal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerBTN"
+        app:layout_constraintVertical_bias="0.06" />
+</androidx.constraintlayout.widget.ConstraintLayout>
