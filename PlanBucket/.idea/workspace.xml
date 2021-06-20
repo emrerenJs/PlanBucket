@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ddd7d1d7-20a8-4c5a-b856-6a3ee230d310" name="Default Changelist" comment="Test commit (Nothing changes)">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/AddTodoActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/Configurations/GlobalVariables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/Configurations/LocalDataManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/Configurations/SocketIOHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/EditProfileActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/GroupsActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/InviteActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/MembersActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/MessageActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/Models/AddGroupModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/Models/AddTodoModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/Models/ConnectChatModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/Models/EditProfileModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/Models/FinishTodoModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/Models/GetTodosModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/Models/GroupInfoModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/Models/GroupTitleModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/Models/GroupTitleRequestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/Models/MessageModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/Models/NotificationInviteModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/Models/SendInviteModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/Models/SendMessageModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/Models/UserRoleModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/MyAccountManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/MyInvitesActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/MyTodoActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/NewGroupActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/Services/NotifService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/TodoInfoActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/TodosActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Api/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../Api/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Api/models/MessageModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Api/models/MessageModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Api/routes/groupOps.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Api/routes/groupOps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Api/schema/invites.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Api/schema/invites.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/ProfileActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/ProfileActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/RegisterActivity.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="resourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket" />
+  </component>
+  <component name="ProjectId" id="1mmvXM5Mn3hCdo5JOvzgRQOjwqj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="emulator-5554" />
+    <property name="DEBUGGABLE_PROCESS" value="com.refuem.planbucket" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="192.168.56.103:5555" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-06-04T18:08:32.300Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1623932481848" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.117080529">
+      <recent name="com.refuem.planbucket" />
+    </key>
+    <key name="android.template.-215740430">
+      <recent name="com.refuem.planbucket" />
+    </key>
+    <key name="android.template.-1730236913">
+      <recent name="com.refuem.planbucket" />
+    </key>
+    <key name="android.template.1672683494">
+      <recent name="com.refuem.planbucket" />
+    </key>
+    <key name="android.template.-1066641848">
+      <recent name="com.refuem.planbucket" />
+    </key>
+    <key name="android.template.-459974982">
+      <recent name="com.refuem.planbucket" />
+      <recent name="com.refuem.planbucket.Models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
+    <key name="android.template.-361868898">
+      <recent name="com.refuem.planbucket" />
+    </key>
+    <key name="android.template.694112314">
+      <recent name="com.refuem.planbucket" />
+    </key>
+    <key name="android.template.-1635862984">
+      <recent name="com.refuem.planbucket" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="PlanBucket.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ddd7d1d7-20a8-4c5a-b856-6a3ee230d310" name="Default Changelist" comment="" />
+      <created>1610111618340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610111618340</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Full Commit (First)">
+      <created>1610130267103</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610130267103</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Test commit (Nothing changes)">
+      <created>1610130360387</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610130360387</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Full Commit (First)" />
+    <MESSAGE value="Test commit (Nothing changes)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test commit (Nothing changes)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="723" y="251" width="346" height="651" key="#com.intellij.ide.util.MemberChooser" timestamp="1623935804141">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="723" y="251" width="346" height="651" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1623935804141" />
+    <state x="2462" y="191" width="321" height="555" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1618101431021" />
+    <state x="1265" y="272" width="374" height="643" key="#com.intellij.ide.util.MemberChooser/0.27.3360.1053@0.27.3360.1053" timestamp="1618071875846" />
+    <state x="693" y="302" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622379904995">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="693" y="302" width="524" height="503" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1622379904995" />
+    <state x="1003" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.3360.1053@0.27.3360.1053" timestamp="1618070178953" />
+    <state x="100" y="127" width="1720" height="853" key="AVDManager" timestamp="1622830445301">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="100" y="127" width="1720" height="853" key="AVDManager/0.27.1920.1053@0.27.1920.1053" timestamp="1622830445301" />
+    <state x="543" y="311" width="824" height="485" key="AndroidCreateResourceDirectoryDialog" timestamp="1617990189181">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="543" y="311" width="824" height="485" key="AndroidCreateResourceDirectoryDialog/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1617990189181" />
+    <state x="2223" y="208" width="824" height="485" key="AndroidCreateResourceFileDialog" timestamp="1620574637797">
+      <screen x="0" y="27" width="3360" height="1053" />
+    </state>
+    <state x="2223" y="208" width="824" height="485" key="AndroidCreateResourceFileDialog/0.27.3360.1053@0.27.3360.1053" timestamp="1620574637797" />
+    <state x="1066" y="292" width="488" height="523" key="AndroidProcessChooserDialog" timestamp="1618018645896">
+      <screen x="0" y="27" width="3360" height="1053" />
+    </state>
+    <state x="1066" y="292" key="AndroidProcessChooserDialog/0.27.3360.1053@0.27.3360.1053" timestamp="1618018645896" />
+    <state width="889" height="646" key="DebuggerActiveHint" timestamp="1620572286687">
+      <screen x="0" y="27" width="3360" height="1053" />
+    </state>
+    <state width="868" height="646" key="DebuggerActiveHint/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1618062821902" />
+    <state width="612" height="553" key="DebuggerActiveHint/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1618769414330" />
+    <state width="889" height="646" key="DebuggerActiveHint/0.27.3360.1053@0.27.3360.1053" timestamp="1620572286687" />
+    <state x="1994" y="85" width="1290" height="730" key="DiffContextDialog" timestamp="1618771079932">
+      <screen x="1920" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="127" width="1720" height="853" key="DiffContextDialog/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1618059595096" />
+    <state x="1994" y="85" width="1290" height="730" key="DiffContextDialog/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1618771079932" />
+    <state x="640" y="311" width="374" height="485" key="FileChooserDialogImpl" timestamp="1622830611438">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="640" y="311" width="374" height="485" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1616846807585" />
+    <state x="640" y="311" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1622830611438" />
+    <state width="1874" height="301" key="GridCell.Tab.0.bottom" timestamp="1623939673604">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="301" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1623939673604" />
+    <state width="1394" height="261" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1618770696958" />
+    <state width="1394" height="245" key="GridCell.Tab.0.bottom/0.27.3360.1053@0.27.3360.1053" timestamp="1620576085834" />
+    <state width="1874" height="301" key="GridCell.Tab.0.center" timestamp="1623939673604">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="301" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1623939673604" />
+    <state width="1394" height="261" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1618770696958" />
+    <state width="1394" height="245" key="GridCell.Tab.0.center/0.27.3360.1053@0.27.3360.1053" timestamp="1620576085834" />
+    <state width="1874" height="301" key="GridCell.Tab.0.left" timestamp="1623939673604">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="301" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1623939673603" />
+    <state width="1394" height="261" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1618770696958" />
+    <state width="1394" height="245" key="GridCell.Tab.0.left/0.27.3360.1053@0.27.3360.1053" timestamp="1620576085833" />
+    <state width="1874" height="301" key="GridCell.Tab.0.right" timestamp="1623939673604">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="301" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1623939673604" />
+    <state width="1394" height="261" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1618770696958" />
+    <state width="1394" height="245" key="GridCell.Tab.0.right/0.27.3360.1053@0.27.3360.1053" timestamp="1620576085834" />
+    <state width="1874" height="301" key="GridCell.Tab.1.bottom" timestamp="1623939673604">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="301" key="GridCell.Tab.1.bottom/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1623939673604" />
+    <state width="1394" height="261" key="GridCell.Tab.1.bottom/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1618770695085" />
+    <state width="1394" height="245" key="GridCell.Tab.1.bottom/0.27.3360.1053@0.27.3360.1053" timestamp="1620576085835" />
+    <state width="1874" height="301" key="GridCell.Tab.1.center" timestamp="1623939673604">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="301" key="GridCell.Tab.1.center/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1623939673604" />
+    <state width="1394" height="261" key="GridCell.Tab.1.center/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1618770695085" />
+    <state width="1394" height="245" key="GridCell.Tab.1.center/0.27.3360.1053@0.27.3360.1053" timestamp="1620576085835" />
+    <state width="1874" height="301" key="GridCell.Tab.1.left" timestamp="1623939673604">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="301" key="GridCell.Tab.1.left/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1623939673604" />
+    <state width="1394" height="261" key="GridCell.Tab.1.left/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1618770695085" />
+    <state width="1394" height="245" key="GridCell.Tab.1.left/0.27.3360.1053@0.27.3360.1053" timestamp="1620576085834" />
+    <state width="1874" height="301" key="GridCell.Tab.1.right" timestamp="1623939673604">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="301" key="GridCell.Tab.1.right/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1623939673604" />
+    <state width="1394" height="261" key="GridCell.Tab.1.right/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1618770695085" />
+    <state width="1394" height="245" key="GridCell.Tab.1.right/0.27.3360.1053@0.27.3360.1053" timestamp="1620576085835" />
+    <state x="449" y="188" width="900" height="731" key="SettingsEditor" timestamp="1622830820968">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="2257" y="138" width="900" height="731" key="SettingsEditor/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1618764696944" />
+    <state x="449" y="188" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1622830820968" />
+    <state x="355" y="27" width="1364" height="844" maximized="true" key="dock-window-1" timestamp="1618097447701">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="355" y="27" width="1364" height="844" maximized="true" key="dock-window-1/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1618097447701" />
+    <state x="1920" y="0" width="1440" height="900" key="dock-window-1/0.27.3360.1053@0.27.3360.1053" timestamp="1618074722511" />
+    <state x="515" y="59" width="1150" height="555" maximized="true" key="dock-window-2" timestamp="1618099071750">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="515" y="59" width="1150" height="555" maximized="true" key="dock-window-2/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1618099071750" />
+    <state x="567" y="27" width="1026" height="549" key="dock-window-2/0.27.3360.1053@0.27.3360.1053" timestamp="1618019157269" />
+    <state x="233" y="27" width="1150" height="555" maximized="true" key="dock-window-3" timestamp="1618099441343">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="233" y="27" width="1150" height="555" maximized="true" key="dock-window-3/0.27.1920.1053/1920.0.1440.900@1920.0.1440.900" timestamp="1618099441343" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1618061767887">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053/1920.0.1440.900@0.27.1920.1053" timestamp="1618061767887" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/MembersActivity.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/refuem/planbucket/AddTodoActivity.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

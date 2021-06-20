@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:enterFadeDuration="@android:integer/config_shortAnimTime"
+    android:exitFadeDuration="@android:integer/config_shortAnimTime"
+    >
+    <item android:state_focused="false" android:state_pressed="false">
+        <layer-list android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+            <!--TOP WHITE-->
+            <item android:bottom="7dp" android:left="0dp" android:right="0dp" android:top="0dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="10dp" />
+                    <gradient
+                        android:startColor="#824094"
+                        android:endColor="#6C42BB"
+                        />
+                </shape>
+            </item>
+
+            <!--BOTTOM DARK-->
+            <item android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="5dp">
+                <shape android:shape="rectangle">
+                    <gradient
+                        android:startColor="#381542"
+                        android:endColor="#2F1362"
+                        />
+                    <corners android:radius="10dp" />
+                </shape>
+            </item>
+            <!--INSIDE-->
+
+            <item
+                android:bottom="7dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="5dp"
+
+                >
+                <shape android:shape="rectangle">
+                    <corners android:radius="5dp" />
+                    <gradient
+                        android:startColor="#632B72"
+                        android:endColor="#502999"
+                        />
+                </shape>
+            </item>
+
+        </layer-list>
+    </item>
+    <item android:state_focused="false" android:state_pressed="true">
+        <layer-list android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+            <!--TOP WHITE-->
+            <item android:bottom="7dp" android:left="0dp" android:right="0dp" android:top="0dp">
+                <shape android:shape="rectangle">
+                    <corners android:radius="10dp" />
+                    <gradient
+                        android:startColor="#311A37"
+                        android:endColor="#6C42BB"
+                        />
+                </shape>
+            </item>
+
+            <!--BOTTOM DARK-->
+            <item android:bottom="0dp" android:left="0dp" android:right="0dp" android:top="5dp">
+                <shape android:shape="rectangle">
+                    <gradient
+                        android:startColor="#381542"
+                        android:endColor="#2F1362"
+                        />
+                    <corners android:radius="10dp" />
+                </shape>
+            </item>
+            <!--INSIDE-->
+
+            <item
+                android:bottom="7dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="5dp"
+
+                >
+                <shape android:shape="rectangle">
+                    <corners android:radius="5dp" />
+                    <gradient
+                        android:startColor="#4A2156"
+                        android:endColor="#2C1850"
+                        />
+                </shape>
+            </item>
+
+        </layer-list>
+    </item>
+</selector>

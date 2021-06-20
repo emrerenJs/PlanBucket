@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_common"
+    tools:context=".EditProfileActivity">
+
+    <ImageView
+        android:id="@+id/profilePhotoIV"
+        android:layout_width="187dp"
+        android:layout_height="194dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/buksy" />
+
+    <EditText
+        android:id="@+id/lastnameET"
+        android:layout_width="175dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="336dp"
+        android:ems="10"
+        android:hint="Soyisim"
+        android:backgroundTint="#5BFFFFFF"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#5BFFFFFF"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toEndOf="@+id/jobET"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/firstnameET"
+        android:layout_width="175dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="336dp"
+        android:ems="10"
+        android:backgroundTint="#5BFFFFFF"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#5BFFFFFF"
+        android:hint="İsim"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/lastnameET"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/jobET"
+        android:layout_width="175dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Meslek"
+        android:inputType="textPersonName"
+        android:backgroundTint="#5BFFFFFF"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#5BFFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstnameET" />
+
+    <Button
+        android:id="@+id/changeProfilePhotoBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fotoğraf Seç"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profilePhotoIV"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <EditText
+        android:id="@+id/biographyET"
+        android:layout_width="370dp"
+        android:layout_height="225dp"
+        android:gravity="top"
+        android:inputType="text|textMultiLine"
+        android:backgroundTint="#5BFFFFFF"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#5BFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jobET"
+        app:layout_constraintVertical_bias="0.652" />
+
+    <Button
+        android:id="@+id/saveProfileBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="saveEditedProfile"
+        android:text="Kaydet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <RadioGroup
+        android:id="@+id/genderRBG"
+        android:layout_width="174dp"
+        android:layout_height="59dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.543"
+        app:layout_constraintStart_toEndOf="@+id/jobET"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.616">
+
+        <RadioButton
+            android:id="@+id/maleRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Erkek"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="213dp"
+            tools:layout_editor_absoluteY="443dp" />
+
+        <RadioButton
+            android:id="@+id/femaleRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kadın"
+            android:textColor="#FFFFFF"
+            tools:layout_editor_absoluteX="213dp"
+            tools:layout_editor_absoluteY="443dp" />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
